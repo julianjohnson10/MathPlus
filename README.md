@@ -7,8 +7,8 @@
 - Multiple choice selections.
 - Statistics menu.
 
-![image](https://github.com/julianjohnson10/MathPlus/assets/101589828/320e13f2-a027-4f82-b125-a1f5c67adfe5)
+<img src="https://github.com/julianjohnson10/MathPlus/assets/101589828/320e13f2-a027-4f82-b125-a1f5c67adfe5" width="300" height="200">
 
-![image](https://github.com/julianjohnson10/MathPlus/assets/101589828/5b91c18b-f459-4393-b599-acbcb0deea80)
+<img src="https://github.com/julianjohnson10/MathPlus/assets/101589828/5b91c18b-f459-4393-b599-acbcb0deea80" width="300" height="200">
 
-![image](https://github.com/julianjohnson10/MathPlus/assets/101589828/fcf877e9-a2cd-4150-bdaf-12e7f3309f73)
+<img src="https://github.com/julianjohnson10/MathPlus/assets/101589828/fcf877e9-a2cd-4150-bdaf-12e7f3309f73" width="300" height="200">
