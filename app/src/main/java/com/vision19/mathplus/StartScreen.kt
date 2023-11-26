@@ -2,9 +2,12 @@ package com.vision19.mathplus
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -13,32 +16,50 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 
 @Composable
-fun StartScreen(navController: NavController) {
+fun StartScreen(navController: NavController, userAnswerViewModel: UserAnswerViewModel) {
     Column(
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally) {
+
+
+
         Button(onClick = {
             navController.navigate("flashCard/addition")
         }) {
-            Text(text = "Addition")
+            Text(
+                text = "Addition",
+                style = MaterialTheme.typography.labelMedium,
+            )
         }
+        Spacer(modifier = Modifier.height(10.dp))
         Button(onClick = {
             navController.navigate("flashCard/subtraction")
         }) {
-            Text(text = "Subtraction")
+            Text(
+                text = "Subtraction",
+                style = MaterialTheme.typography.labelMedium,
+            )
         }
+        Spacer(modifier = Modifier.height(10.dp))
         Button(onClick = {
             navController.navigate("flashCard/multiplication")
         }) {
-            Text(text = "Multiplication")
+            Text(
+                text = "Multiplication",
+                style = MaterialTheme.typography.labelMedium,
+            )
         }
+        Spacer(modifier = Modifier.height(10.dp))
         Button(onClick = {
             navController.navigate("statisticsMenu")
         }) {
-            Text(text = "Stats")
+            Text(
+                text = "Stats",
+                style = MaterialTheme.typography.labelMedium,
+            )
         }
     }
 }
